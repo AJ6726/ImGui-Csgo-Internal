@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{2a8971d8-fa26-4b62-bb0e-ed661d3bc804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\MinHook">
+      <UniqueIdentifier>{643acd6f-6704-4104-9ebd-310373471610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ImGui">
+      <UniqueIdentifier>{ec3236ce-2c8f-411d-a839-e575de2a3a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{d92fe0e8-1cff-4071-a574-737244dad68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{10113e55-87f1-45f0-90f7-3542b5a3e489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Interfaces">
+      <UniqueIdentifier>{3a093ae1-ead3-40c8-bbdd-bd38d7f5fc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Menu">
+      <UniqueIdentifier>{bc34083a-20e4-4433-8009-a400a5f12e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Hooks">
+      <UniqueIdentifier>{e011a3d5-f966-4c7a-9708-534fe7a93617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{dba59e4e-32e3-4d9d-aef2-8dc92ef56810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{1002d644-426a-4bc8-93e9-852f9a7af96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Visuals">
+      <UniqueIdentifier>{856635e1-7e81-4f27-88c1-b7efc03c6c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Aim">
+      <UniqueIdentifier>{c80ae959-dc26-4fda-8337-1e9a912ea7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Misc">
+      <UniqueIdentifier>{78e7c00b-5ae4-4f39-bb95-53979930b754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Freetype">
+      <UniqueIdentifier>{b36fa5e3-0493-46d3-b674-bfc38c20568f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\ImGui\imgui.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_demo.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_draw.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_impl_dx9.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_impl_win32.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_tables.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_widgets.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\MinHook\buffer.c">
+      <Filter>External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="External\MinHook\hde32.c">
+      <Filter>External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="External\MinHook\hde64.c">
+      <Filter>External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="External\MinHook\hook.c">
+      <Filter>External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="External\MinHook\trampoline.c">
+      <Filter>External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\Interfaces.cpp">
+      <Filter>Resource\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu_Initializer.cpp">
+      <Filter>Resource\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\D3D9_Hooks.cpp">
+      <Filter>Resource\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\hooks.cpp">
+      <Filter>Resource\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Resource\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Interface_hooks.cpp">
+      <Filter>Resource\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Visuals.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Other_Visuals.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Skeleton.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Traceline.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\Box.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ImGui_Wrappers.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Visuals\HealthBar.cpp">
+      <Filter>Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\imgui_freetype.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Aim\Aimbot.cpp">
+      <Filter>Hacks\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Aim\Triggerbot.cpp">
+      <Filter>Hacks\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\UMath.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\UGlobal.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Misc\BHop.cpp">
+      <Filter>Hacks\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\ImGui\imconfig.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_impl_dx9.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_impl_win32.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_internal.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_rectpack.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_textedit.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imstb_truetype.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\buffer.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\hde32.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\hde64.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\MinHook.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\pstdint.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\table32.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\table64.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="External\MinHook\trampoline.h">
+      <Filter>External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Interfaces.h">
+      <Filter>Resource\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu_Initializer.h">
+      <Filter>Resource\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\D3D9_Hooks.h">
+      <Filter>Resource\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\hooks.h">
+      <Filter>Resource\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UMath.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UMatrix.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UVector.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CBaseEntity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientEntityList.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IMaterialSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IStudioRenderer.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IVDebugOverlay.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IVEngineClient.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IVModelInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Resource\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UConfigs.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\IconsFontAwesome4.h">
+      <Filter>Resource\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Interface_hooks.h">
+      <Filter>Resource\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CUserCmd.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GlobalVarsBase.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Visuals\Visuals.h">
+      <Filter>Hacks\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ImGui_Wrappers.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGui\imgui_freetype.h">
+      <Filter>External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IEngineTrace.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UInterfaces.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientRenderable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClienUnkown.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\UGlobal.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
